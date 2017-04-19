@@ -132,3 +132,8 @@ doAsync().then(
   function(reason) { console.log('Nope:' + reason) }
 );
 ```
+
+```javascript
+Promise.all
+Promise.race
+```
