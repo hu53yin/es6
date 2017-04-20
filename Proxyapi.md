@@ -77,5 +77,5 @@ let { proxy, revoke } = Proxy.revocable(t, {
 
 console.log(proxy.tableId); -> 199
 revoke();
-console.log(proxy.tableId); -> Property size doesn't exist
+console.log(proxy.tableId); -> Property size doesn\'t exist
 ```
